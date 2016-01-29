@@ -75,7 +75,7 @@ class InstallCommand {
         buffer
             ..write('${theme.dependency(dep.name)}: ')
             ..write(theme.version(dep.source == 'hosted' ?
-                "'${dep.constraint}'" :
+                "${dep.constraint}" :
                 dep.description));
         if(movedDependencies.containsKey(dep.name)) buffer.write(theme.info(' (moved from "$otherDepGroupKey")'));
         lines.add(buffer.toString());

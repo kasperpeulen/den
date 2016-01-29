@@ -22,3 +22,6 @@ dev_dependencies:
   unittest: '>=0.11.0 <12.0.0'
 executables:
   den: null
+dependency_overrides:
+  den_api:
+    git: https://github.com/kasperpeulen/den_api

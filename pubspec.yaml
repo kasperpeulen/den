@@ -8,7 +8,7 @@ environment:
 dependencies:
   ansicolor: any
   contrast: '>=0.1.1 <0.2.0'
-  den_api: '>=0.1.0 <0.2.0'
+  den_api: {git: https://github.com/kasperpeulen/den_api}
   path: '>=1.3.0 <2.0.0'
   prompt: '>=0.1.7 <0.2.0'
   pub_package_data: any
@@ -22,6 +22,3 @@ dev_dependencies:
   unittest: '>=0.11.0 <12.0.0'
 executables:
   den: null
-dependency_overrides:
-  den_api:
-    git: https://github.com/kasperpeulen/den_api
